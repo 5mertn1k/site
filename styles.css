@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5E6DA;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+}
+
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.content-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -100px;
+}
+
+.logo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+h1 {
+    margin-top: -60px;
+    font-size: 120px;
+    font-weight: 300;
+    font-family: 'Albert Sans', serif;
+}
+.logo {
+    width: 280px;
+}
+.container p {
+    position: relative;
+    font-size: 80px;
+    font-family: 'Alegreya SC', serif;
+    font-weight: 300;
+    margin-top: 100px;
+}
+.logo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+.skid{
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+}
+.menu-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 230px;
+    height: 65px;
+    background: #C4732A;
+    color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 90px;
+    cursor: pointer;
+    font-family: 'Alegreya SC', serif;
+    
+}
+
+button:hover {
+    background: #a35d20;
+}
+
+
+
+.promo-container {
+    
+    margin: 150px auto; 
+    
+    text-align: center;
+}
+
+
+.promo-container h1 {
+    font-weight: 500;
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-family: 'Alegreya SC', serif;
+}
+button{
+    background: #C4732A;
+    color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 1000px;
+    cursor: pointer;
+    font-family: 'Alegreya SC', serif;
+}  
+
+.discount {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #C4732A;
+    font-family: 'Alegreya SC', serif;
+    
+}
+.discount1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #C4732A;
+    font-family: 'krona one', serif;
+    
+}
+
+
+.pizza-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 100px auto; 
+}
+
+
+.pizza-card {
+    background-color: #F5E6DA; 
+    border-radius: 10px;
+    padding: 50px;
+    width: 400px; 
+    height: 600px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.pizza-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+   
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.pizza-card h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-family: 'Alegreya SC', serif;
+}
+
+
+.pizza-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'krona one', serif;
+}
+.price1 {
+    margin-bottom: 20px;
+}
+
+.price {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #C4732A; 
+    font-family: 'krona one', serif;
+}
+
+.new-price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #C4732A; 
+    font-family: 'krona one', serif;
+}
+
+
+.old-price {
+    font-size: 18px;
+    color: #999;
+    text-decoration: line-through;
+    font-family: 'krona one', serif;
+}
+
+
+.add-to-cart {
+    background: #C4732A;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.go-to-cart{
+    color: black;
+    padding: 12px 20px;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.menu {
+    
+    margin: 100px auto; 
+    
+    text-align: center;
+}
+.menu h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Alegreya SC', serif;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 40px; 
+    padding: 20px;
+}
+.menu h3{
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-family: 'Alegreya SC', serif;
+}
+.menu p {
+    font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'krona one', serif; 
+}
+.des{
+    height: 60px;
+    overflow: hidden;
+}
+.cafe-section {
+    text-align: center;
+    margin-top: 40px;
+}
+.cafe-title {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Alegreya SC', serif;
+}
+.cafe-list1 {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    justify-content: center;
+}
+.cafe-list2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.cafe-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 300px;
+    border: 5px solid #C4732A;
+    border-radius: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Alegreya SC', serif;
+    background-color: white;
+}
+
+.contacts-container {
+    background: #C4732A;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+.kon-title {
+    font-size: 60px;
+    font-family: 'Alegreya SC', serif;
+}
+.contact-info{
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     
+    gap: 200px;
+}
+.info{
+    font-size: 50px;
+    font-family: 'Alegreya SC', serif;
+}
+
