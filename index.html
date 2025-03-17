@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vibe Pizza</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
   <div class="container">
@@ -39,7 +40,7 @@
               <span class="new-price">920 </span>
               <span class="old-price">1150 </span>
             </div>
-            <button class="add-to-cart">Добавить в корзину</button>
+            <button class="add-to-cart" data-name="Барбекко" data-price="920">Добавить в корзину</button>
           </div>
           <div class="skid">
           <div class="discount">СКИДКА</div>
@@ -55,7 +56,7 @@
               <span class="new-price">864 </span>
               <span class="old-price">1080 </span>
             </div>
-            <button class="add-to-cart">Добавить в корзину</button>
+            <button class="add-to-cart" data-name="Чоризо" data-price="864">Добавить в корзину</button>
           </div>
         </div>
       </section>
@@ -69,7 +70,7 @@
                 <p class = "des">Цыпленок, бекон, соус барбекю, красный лук, моцарелла, фирменный томатный соус</p>
                 <p class="weight">710 гр</p>
                 <div><span class="price">1150 </span></div>
-                <button class="add-to-cart">Добавить в корзину</button>
+                <button class="add-to-cart" data-name="Барбекко" data-price="1150">Добавить в корзину</button>
             </div>
             <div class="pizza-card">
                 <img src="pep.png" alt="Пепперони">
@@ -77,7 +78,7 @@
                 <p class = "des">Пепперони, увеличенная порция моцареллы, фирменный томатный соус</p>
                 <p class="weight">710 гр</p>
                 <div><span class="price">980 </span></div>
-                <button class="add-to-cart">Добавить в корзину</button>
+                <button class="add-to-cart" data-name="Пепперони" data-price="980">Добавить в корзину</button>
             </div>
             <div class="pizza-card">
               <img src="gav.png" alt="Гавайская">
@@ -85,7 +86,7 @@
               <p class = "des">Двойная порция цыпленка, ананасы, моцарелла, фирменный соус альфредо</p>
               <p class="weight">690 гр</p>
               <div><span class="price">1010 </span></div>
-              <button class="add-to-cart">Добавить в корзину</button>
+              <button class="add-to-cart" data-name="Гавайская" data-price="1010">Добавить в корзину</button>
           </div>
           <div class="pizza-card">
             <img src="cho.png" alt="Чоризо">
@@ -93,7 +94,7 @@
             <p class = "des">Острые колбаски чоризо, сладкий перец, моцарелла, фирменный томатный соус</p>
             <p class="weight">700 гр</p>
             <div><span class="price">1080 </span></div>
-            <button class="add-to-cart">Добавить в корзину</button>
+            <button class="add-to-cart" data-name="Чоризо" data-price="1080">Добавить в корзину</button>
         </div>
         <div class="pizza-card">
           <img src="ov.png" alt="Овощная с грибами">
@@ -101,7 +102,7 @@
           <p class = "des">Моцарелла, томаты, шампиньоны, сладкий перец, красный лук, чеснок, фирменный томатный соус</p>
           <p class="weight">700 гр</p>
           <div><span class="price">1100 </span></div>
-          <button class="add-to-cart">Добавить в корзину</button>
+          <button class="add-to-cart" data-name="Овощная с грибами" data-price="1100">Добавить в корзину</button>
       </div>
       <div class="pizza-card">
         <img src="j.png" alt="Жюльен">
@@ -109,7 +110,7 @@
         <p class = "des">Цыпленок, шампиньоны, ароматный грибной соус, лук, сухой чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо</p>
         <p class="weight">710 гр</p>
         <div><span class="price">1050 </span></div>
-        <button class="add-to-cart">Добавить в корзину</button>
+        <button class="add-to-cart" data-name="Жюльен" data-price="1050">Добавить в корзину</button>
     </div>
     <div class="pizza-card">
       <img src="meet.png" alt="Мясная">
@@ -117,7 +118,7 @@
       <p class = "des">Цыпленок, ветчина, пикантная пепперони, острые колбаски чоризо, моцарелла, фирменный томатный соус</p>
       <p class="weight">720 гр</p>
       <div><span class="price">1200 </span></div>
-      <button class="add-to-cart">Добавить в корзину</button>
+      <button class="add-to-cart" data-name="Мясная" data-price="1200">Добавить в корзину</button>
   </div>
   <div class="pizza-card">
     <img src="mar.png" alt="Маргарита">
@@ -125,7 +126,7 @@
     <p class = "des">Увеличенная порция моцареллы, томаты, итальянские травы, фирменный томатный соус</p>
     <p class="weight">660 гр</p>
     <div><span class="price">980 </span></div>
-    <button class="add-to-cart">Добавить в корзину</button>
+    <button class="add-to-cart" data-name="Маргарита" data-price="980">Добавить в корзину</button>
 </div>
 <div class="pizza-card">
   <img src="cir.png" alt="Сырная">
@@ -133,7 +134,7 @@
   <p class = "des">Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо</p>
   <p class="weight">660 гр</p>
   <div><span class="price">990 </span></div>
-  <button class="add-to-cart">Добавить в корзину</button>
+  <button class="add-to-cart" data-name="Сырная" data-price="990">Добавить в корзину</button>
 </div>
 <div class="pizza-card">
   <img src="vic.png" alt="Ветчина и сыр">
@@ -141,7 +142,7 @@
   <p class = "des">Ветчина, моцарелла, фирменный соус альфредо</p>
   <p class="weight">670 гр</p>
   <div><span class="price">1050 </span></div>
-  <button class="add-to-cart">Добавить в корзину</button>
+  <button class="add-to-cart" data-name="Ветчина и сыр" data-price="1050">Добавить в корзину</button>
 </div>
 <div class="pizza-card">
   <img src="vig.png" alt="Ветчина и грибы">
@@ -149,7 +150,7 @@
   <p class = "des">Ветчина, шампиньоны, увеличенная порция моцареллы, фирменный томатный соус</p>
   <p class="weight">680 гр</p>
   <div><span class="price">1100</span></div>
-  <button class="add-to-cart">Добавить в корзину</button>
+  <button class="add-to-cart" data-name="Ветчина и грибы" data-price="1100">Добавить в корзину</button>
 </div>
 <div class="pizza-card">
   <img src="chik.png" alt="Двойной цыпленок">
@@ -157,10 +158,12 @@
   <p class = "des">Цыпленок, моцарелла, фирменный соус альфредо</p>
   <p class="weight">680 гр</p>
   <div><span class="price">1150 </span></div>
-  <button class="add-to-cart">Добавить в корзину</button>
+  <button class="add-to-cart" data-name="Двойной цыпленок" data-price="1150">Добавить в корзину</button>
 </div>
         </div>
-        <button class="go-to-cart">Перейти в корзину</button>
+        <a href="cart.html" class="go-to-cart">
+          <button id="go-to-cart">Перейти в корзину</button>
+      </a>
     </section>
     <section id="tittle" class="cafe-section">
       <h3 class="cafe-title">КАФЕ</h3>

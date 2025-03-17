@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Krona+One&display=swap');
+.cart-container2{
+    display: flex;
+    justify-content: center;
+}
+.logo-container2{
+    display: flex;
+}
+.logo-container2 h1{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Albert Sans', serif;
+}
+.logo2{
+    width:80px;
+
+}
+body {
+    background: #F5E6DA;
+}
+button{
+    background: #C4732A;
+    color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 1000px;
+    cursor: pointer;
+    font-family: 'Alegreya SC', serif;
+}  
+
+
+.cart-left h2{
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Alegreya SC', serif;
+}
+p{
+    font-family: 'Alegreya SC', serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 50px;
+}
+.total-price{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'krona one', serif;
+}
+.cart-items{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Alegreya SC', serif;
+}
+.qq{
+    margin-left: 50px;
+}
+
+.cart-right{
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alegreya SC', serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.input-field{
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    width: 300px;
+    height: 30px; 
+    font-size: 22px; 
+    font-weight: 600;
+    padding: 5px 10px; 
+    border: 2px solid #8B4513; 
+    border-radius: 8px; 
+}
+.input-field1{
+    text-align: center;
+    width: 300px;
+    height: 30px; 
+    font-size: 16px; 
+    padding: 5px 10px; 
+    border: 2px solid #8B4513; 
+    border-radius: 8px; 
+}
+.q1{
+    text-align: center;
+    width: 300px;
+    height: 40px; 
+    font-size: 16px; 
+    padding: 5px 10px; 
+    border: 2px solid #8B4513; 
+    border-radius: 8px; 
+}
+.q{
+    margin-top: 50px;
+}
+.button{
+    margin-top: 50px;
+}
+label{
+    font-family: 'Alegreya SC', serif;
+    font-size: 25px;
+    font-weight: 500;
+}

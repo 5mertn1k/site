@@ -218,14 +218,16 @@ html {
     border-radius: 20px;
     cursor: pointer;
 }
-.go-to-cart{
+
+.go-to-cart button {
     color: black;
-    padding: 12px 20px;
+    padding: 12px 25px;
     border-radius: 100px;
     font-weight: 500;
     font-size: 35px;
+    background-color: #C4732A; 
+    cursor: pointer;
 }
-
 .menu {
     
     margin: 100px auto; 
@@ -323,4 +325,3 @@ html {
     font-size: 50px;
     font-family: 'Alegreya SC', serif;
 }
-

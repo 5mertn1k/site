@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="styles1.css">
+    <script defer src="cart.js"></script>
+</head>
+<body>
+    <div class="logo-container2">
+        <h1>VIBE</h1>
+        <img src="pizza.png" alt="лого" class="logo2">
+    </div>
+    <div class="cart-container2">
+        <div class="cart-left">
+            <h2>Состав заказа</h2>
+            <ul class="cart-items" id="cart-items"></ul>
+            <p><strong>Итого к оплате: </strong><span class="total-price" id="total-price"></span> </p>
+            <button class = "qq" id="clear-cart" class="button">Очистить корзину</button>
+            <button id="back-to-menu" class="button">Меню</button>
+        </div>
+        <div class="cart-right">
+            <h2>Оформление заказа</h2>
+            <label>Имя</label>
+            <input type="text" id="customer-name" class="input-field">
+            <label>Телефон</label>
+            <input type="text" id="customer-phone" class="input-field">
+            <label>Способ получения:</label>
+            <select id="order-type" class="input-field q1">
+                <option value="delivery">Доставка</option>
+                <option value="pickup">Самовывоз</option>
+            </select>
+            <div class="q" id="address-container">
+                <label >Адрес доставки</label>
+                <input type="text" id="customer-address" class="input-field1">
+            </div>
+            <div class="q" id="pickup-container" style="display: none;">
+                <label>Выберите кафе</label>
+                <select id="pickup-location" class="input-field q1">
+                    <option>УЛ. КИМ, 93</option>
+                    <option>УЛ. ПЕТРОПАВЛОВСКАЯ, 73А</option>
+                    <option>УЛ. МИРА, 64</option>
+                    <option>УЛ. БЕЛИНСКОГО, 45</option>
+                </select>
+            </div>
+            <button id="place-order" class="button">Сделать заказ</button>
+        </div>
+    </div>
+</body>
+</html>
